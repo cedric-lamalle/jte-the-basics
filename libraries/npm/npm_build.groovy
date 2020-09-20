@@ -1,3 +1,5 @@
 void call(){
-    build()
+    stage("NPM: Build") {
+        println "build from the npm library"
+    }
 }
